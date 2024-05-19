@@ -1,0 +1,101 @@
+/* root */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{  
+ --White: hsl(0, 0%, 100%);
+--Grey: hsl(0, 0%, 20%);
+--DarkGrey: hsl(0, 0%, 12%);
+--OffBlack: hsl(0, 0%, 8%);
+
+}
+@font-face {
+    font-family: "InterBold";
+    src: url(assets/fonts/static/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: "InterRegular";
+    src: url(assets/fonts/static/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: "InterSemibold";
+    src: url(assets/fonts/static/Inter-SemiBold.ttf);
+}
+@font-face {
+    font-family: "InterVariable";
+    src: url(assets/fonts/Inter-VariableFont_slnt,wght.ttf);
+}
+/* main */
+body{
+    background-color: var(--OffBlack);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+    /* align-items: center; */
+  
+}
+.flexcontainer{
+    background-color: hsl(0, 0%, 12%);
+    text-align: center;
+    max-width: 355px;
+    width: 110%;
+    padding: 24px;
+    border-radius: 10px;
+}
+.flexcontainer img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    display: block;
+    margin-inline: auto;
+    margin-bottom: 10px;
+
+    
+
+}
+.flexcontainer h2{
+    padding-top: 10px;
+    color: var(--White);
+    font-family:"InterBold";
+}
+.flexcontainer h4{
+    padding: 9px;
+    color:  hsl(75, 94%, 57%);
+    font-size: 0.90rem;
+    font-family: "InterSemiBold";
+}
+.flexcontainer p{
+    color: var(--White);
+    font-size: 10px;
+    margin:20px 1rem;
+    margin-top: 5px;
+    font-family: "InterSemibold";
+}
+.flexcontainer a{
+    text-decoration: none;
+    display: block;
+    color: var(--White);
+   margin-top: 10px;
+   padding: 10px;
+   background-color: hsl(0, 0%, 20%);
+   border-radius: 8px;
+   font-size: 16px;
+   font-style: bold;
+   outline: none;
+   font-family: "InterBold";
+   
+}
+.flexcontainer a:hover{
+    color: hsl(0, 0%, 12%);
+    background-color: hsl(75, 94%, 57%);
+}
+/* p{
+    margin: 50px 2px;
+} */
+
+/* footer */
